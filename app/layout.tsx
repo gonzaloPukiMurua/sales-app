@@ -27,6 +27,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header>
+          <h1>Aca va una Navbar</h1>
+          {/* Acá podrías agregar una Navbar */}
+        </header>
         {children}
       </body>
     </html>
